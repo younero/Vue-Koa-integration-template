@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "lerna run dev ",
-    "build": "lerna run build --parallel",
-    "start": "lerna run start --parallel",
-    "clean": "lerna run clean --parallel"
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "clean": "lerna run clean"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "lerna": "^8.1.9"
   }
 }
