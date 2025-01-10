@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "lerna run dev",
+    "dev": "lerna run dev ",
     "build": "lerna run build --parallel",
     "start": "lerna run start --parallel",
     "clean": "lerna run clean --parallel"
