@@ -2,5 +2,6 @@
 
 ## Quick Start
 ```bash
+cd ./code
 pnpm install && pnpm run dev
 ```
