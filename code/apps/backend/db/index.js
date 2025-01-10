@@ -9,6 +9,7 @@ const {
 const mongoose = require('mongoose')
 
 mongoose.connect(`mongodb://${MONGODB_HOST}:${MONGODB_PORT}/${MONGODB_DB}`, {
+    authSource: 'admin',
     auth: {
         username: MONGODB_USER,
         password: MONGODB_PWD
